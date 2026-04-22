@@ -16,7 +16,10 @@ class C_Bullet
 {
 private:
 
-	static const int bulletNum=10;
+	static const int Width = 640;
+	static const int High = 360;
+
+	static const int bulletNum=50;
 	struct C_pos mybullet[bulletNum];
 
 	KdTexture myBulletTex;
