@@ -11,7 +11,7 @@ void C_TitleScene::Init()
 void C_TitleScene::UpDate()
 {
 
-	if (GetAsyncKeyState(VK_LBUTTON) & 0x8000)
+	if (GetAsyncKeyState('Q') & 0x8000)
 	{
 		SCENEMANAGER.ChangeState(new C_SelectScene());
 		SCENEMANAGER.Init();
